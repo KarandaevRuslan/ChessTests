@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ChessLibrary
 {
+    /// <summary>
+    /// Представляет шахматную доску, хранит фигуры и реализует логику размещения, удаления и выполнения ходов.
+    /// Поддерживает хранение последнего хода для реализации специальных правил (например, взятие на проходе).
+    /// </summary>
     public class ChessBoard
     {
         private readonly IChessman[,] _board = new IChessman[8, 8];

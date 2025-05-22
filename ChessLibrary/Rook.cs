@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ChessLibrary
 {
+    /// <summary>
+    /// Класс реализует логику ладьи: движение по вертикали и горизонтали, взятие, проверка свободного пути.
+    /// </summary>
     public class Rook : Chessman
     {
         public Rook(ChessField position, ESide side) : base(EChessmanType.Rook, position, side)

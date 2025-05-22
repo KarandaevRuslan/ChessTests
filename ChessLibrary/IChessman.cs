@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ChessLibrary
 {
+    /// <summary>
+    /// Интерфейс для шахматной фигуры. Определяет основные свойства и методы для всех фигур.
+    /// </summary>
     public interface IChessman
     {
         ChessField GetPosition();

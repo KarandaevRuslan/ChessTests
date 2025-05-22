@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ChessLibrary
 {
+    /// <summary>
+    /// Перечисление сторон в шахматах (белые и черные).
+    /// </summary>
     public enum ESide
     {
         White,

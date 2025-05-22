@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ChessLibrary
 {
+    /// <summary>
+    /// Абстрактный базовый класс для всех шахматных фигур.
+    /// Содержит общие свойства и методы для фигур (тип, сторона, позиция, признак первого хода).
+    /// </summary>
     public abstract class Chessman : IChessman
     {
         public EChessmanType Type { get; protected set; }

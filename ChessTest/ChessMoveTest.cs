@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ChessTest
 {
+    /// <summary>
+    /// Набор тестов для проверки корректности шахматной нотации и класса ChessMove.
+    /// </summary>
     [TestFixture]
     public class ChessMoveTests
     {

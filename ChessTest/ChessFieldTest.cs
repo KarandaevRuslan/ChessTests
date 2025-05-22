@@ -4,6 +4,9 @@ using NUnit.Framework;
 
 namespace ChessTest
 {
+    /// <summary>
+    /// Набор тестов для проверки валидации координат шахматного поля.
+    /// </summary>
     [TestFixture]
     public class ChessFieldTest
     {

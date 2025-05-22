@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ChessLibrary
 {
+    /// <summary>
+    /// Перечисление типов шахматных фигур.
+    /// </summary>
     public enum EChessmanType
     {
         King,

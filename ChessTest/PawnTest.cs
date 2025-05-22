@@ -1,10 +1,11 @@
-﻿
-
-using ChessLibrary;
+﻿using ChessLibrary;
 using System;
 
 namespace ChessTest
 {
+    /// <summary>
+    /// Набор тестов для проверки логики пешки: движение, взятие, превращение, взятие на проходе и ошибки.
+    /// </summary>
     [TestFixture]
     public class PawnTest
     {

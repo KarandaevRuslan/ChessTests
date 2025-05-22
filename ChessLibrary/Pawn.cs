@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ChessLibrary
 {
+    /// <summary>
+    /// Класс реализует логику пешки: движение, взятие, взятие на проходе, превращение.
+    /// </summary>
     public class Pawn : Chessman
     {
         public Pawn(ChessField position, ESide side) : base(EChessmanType.Pawn, position, side)

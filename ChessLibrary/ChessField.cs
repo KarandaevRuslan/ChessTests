@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ChessLibrary
 {
+    /// <summary>
+    /// Представляет координаты поля на шахматной доске (строка и колонка).
+    /// Проверяет корректность координат при создании.
+    /// </summary>
     public class ChessField
     {
         public char Row { get; private set; }

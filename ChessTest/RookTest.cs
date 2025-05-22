@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ChessTest
 {
+    /// <summary>
+    /// Набор тестов для проверки логики ладьи: движение, взятие, блокировки и ошибки.
+    /// </summary>
     [TestFixture]
     public class RookTest
     {

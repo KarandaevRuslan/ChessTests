@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ChessLibrary
 {
+    /// <summary>
+    /// Представляет шахматный ход, хранит информацию о перемещении фигуры, взятии, превращении, специальных ходах.
+    /// Позволяет получить строковое представление хода в шахматной нотации.
+    /// </summary>
     public class ChessMove
     {
         public ChessField From { get; private set; }
